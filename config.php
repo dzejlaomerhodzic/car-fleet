@@ -1,5 +1,6 @@
 <?php
     session_start();
+    define('URL', 'http://localhost');
 
     $conn = mysqli_connect('localhost', 'root', '', 'mydb') or die(mysqli_error());
 

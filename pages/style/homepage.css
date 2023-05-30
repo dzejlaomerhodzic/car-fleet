@@ -1,45 +1,172 @@
+footer {
+background-color: #ffffff;
+color: #797979;
+padding: 20px;
+}
+
+.footer-content {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.footer-content p {
+margin: 0;
+}
 .cta-section {
-    position: relative;
-  }
-  
-  .cta-background {
-    background-image: url('../../assets/images/homepage/car-fleet.jpg');
-    background-size: cover;
-    background-position: center;
-    padding: 40px;
-    text-align: center;
-    filter: brightness(90%);
-  }
-  
-  .cta-content {
-    max-width: 600px;
-    margin: 0 auto;
-    background-color: rgba(255, 255, 255, 0.937);
-    padding: 60px 15px;
-    border-radius: 8px;
-  }
-  
-  .cta-content h2 {
-    font-size: 24px;
-    margin-bottom: 10px;
-  }
-  
-  .cta-content p {
-    font-size: 16px;
-    margin-bottom: 20px;
-  }
-  
-  .cta-button {
-    display: inline-block;
-    background-color: #333;
-    color: #fff;
-    text-decoration: none;
-    padding: 10px 20px;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-  }
-  
-  .cta-button:hover {
-    background-color: #555;
-  }
-  
+position: relative;
+}
+
+.cta-background {
+background-image: url('../../assets/images/homepage/car-fleet.jpg');
+background-size: cover;
+background-position: center;
+padding: 40px;
+text-align: center;
+filter: brightness(80%);
+}
+
+.cta-content {
+background-color: rgba(0, 0, 0, 0.456);
+max-width: 600px;
+margin: 0 auto;
+padding: 70px 25px;
+color: #fff;
+}
+
+.cta-content h2 {
+font-size: 24px;
+margin-bottom: 10px;
+}
+
+.cta-content p {
+font-size: 16px;
+margin-bottom: 20px;
+}
+
+.cta-button {
+display: inline-block;
+background-color: #333;
+color: #fff;
+text-decoration: none;
+padding: 10px 20px;
+border-radius: 5px;
+transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+background-color: #555;
+}
+.about-section {
+background-color: #000;
+color: #fff;
+padding: 40px;
+}
+
+.container {
+max-width: 800px;
+margin: 0 auto;
+display: flex;
+flex-direction: column;
+align-items: center;
+}
+
+.about-title {
+font-size: 28px;
+margin-bottom: 20px;
+text-align: center;
+}
+
+.about-text {
+font-size: 16px;
+line-height: 1.5;
+text-align: justify;
+text-align: -moz-justify; /* Firefox */
+text-align: -webkit-justify; /* Chrome, Safari, and Opera */
+text-align: -ms-justify; /* Internet Explorer */
+}
+.read-more-button {
+display: inline-block;
+background-color: #000;
+color: #fff;
+padding: 10px 20px;
+text-decoration: none;
+border-radius: 5px;
+transition: background-color 0.3s ease;
+}
+
+.read-more-button:hover {
+background-color: #555;
+}
+.contact-section {
+background-color: #fff;
+padding: 40px 0;
+}
+
+.container {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.section-title {
+text-align: center;
+font-size: 28px;
+margin-bottom: 40px;
+}
+
+.contact-form {
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+}
+
+.contact-input {
+width: 100%;
+max-width: 800px;
+padding: 10px;
+margin-bottom: 20px;
+border: 1px solid #ccc;
+border-radius: 5px;
+}
+
+.contact-button {
+background-color: #000;
+color: #fff;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+.contact-button:hover {
+background-color: #555;
+}
+.faq-section {
+background-color: #fff;
+padding: 40px 0;
+}
+
+.wrapper {
+max-width: 800px;
+margin: 0 auto;
+}
+
+.section-title {
+text-align: center;
+font-size: 28px;
+margin-bottom: 40px;
+}
+
+.faq-item {
+margin-bottom: 20px;
+}
+
+.faq-question {
+font-size: 20px;
+margin-bottom: 10px;
+}
+
+.faq-answer {
+font-size: 16px;
+}
