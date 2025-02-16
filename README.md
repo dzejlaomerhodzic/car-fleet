@@ -71,7 +71,5 @@ The project follows a structured **Entity-Relationship Diagram (ERD)** approach 
 - [TutorialsPoint - SQL](https://www.tutorialspoint.com/sql/index.htm)
 - [PHP Tutorial](https://www.phptutorial.net/)
 
-## License
-This project is licensed under the MIT License.
 
 
