@@ -28,18 +28,18 @@ The project follows a structured **Entity-Relationship Diagram (ERD)** approach 
 ## Setup Instructions
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/car-fleet-management.git
+   git clone https://github.com/yourusername/car-fleet.git
    ```
 2. Navigate to the project directory:
    ```sh
-   cd car-fleet-management
+   cd car-fleet
    ```
 3. Set up a MySQL database and import the provided SQL script.
 4. Configure database connection in `config.php`.
 5. Run the project using XAMPP (start Apache & MySQL services).
 6. Open the website in a browser:
    ```
-   http://localhost/car-fleet-management/
+   http://localhost/car-fleet/
    ```
 
 ## User Roles
